@@ -11,12 +11,12 @@ def main():
     players = []
 
     for player_dict in response:
-        print(player_dict)
-        player = Player(player_dict)
-        players.append(player)
+        if player_dict["nationality"]=="FIN":
+            player = Player(player_dict)
+            players.append(player)
 
     print("Oliot:")
-
+    players = sorted(players,key=lambda x: x.goals + x.assists, reverse =True)
     for player in players:
         print(player)
 
