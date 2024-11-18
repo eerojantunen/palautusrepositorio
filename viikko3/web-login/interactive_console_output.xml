@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.3 on linux)" generated="20241118 22:09:33.191" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="/home/eplinux/.vscode-server/extensions/robocorp.robotframework-lsp-1.13.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Click Link">
+<arg>Register new user</arg>
+<msg timestamp="20241118 22:09:34.054" level="FAIL">No keyword with name 'Click Link' found.</msg>
+<status status="FAIL" starttime="20241118 22:09:34.054" endtime="20241118 22:09:34.054"/>
+</kw>
+<kw name="Register Page Should Be Open">
+<status status="NOT RUN" starttime="20241118 22:09:34.055" endtime="20241118 22:09:34.055"/>
+</kw>
+<status status="PASS" starttime="20241118 22:09:33.211" endtime="20241118 22:09:50.720"/>
+</kw>
+<status status="PASS" starttime="20241118 22:09:33.211" endtime="20241118 22:09:50.720"/>
+</test>
+<status status="PASS" starttime="20241118 22:09:33.192" endtime="20241118 22:09:50.721"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
